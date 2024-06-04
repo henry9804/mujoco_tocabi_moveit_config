@@ -1,0 +1,436 @@
+whole_body_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - L_HipYaw_Joint
+    - L_HipRoll_Joint
+    - L_HipPitch_Joint
+    - L_Knee_Joint
+    - L_AnklePitch_Joint
+    - L_AnkleRoll_Joint
+    - R_HipYaw_Joint
+    - R_HipRoll_Joint
+    - R_HipPitch_Joint
+    - R_Knee_Joint
+    - R_AnklePitch_Joint
+    - R_AnkleRoll_Joint
+    - Waist1_Joint
+    - Waist2_Joint
+    - Upperbody_Joint
+    - L_Shoulder1_Joint
+    - L_Shoulder2_Joint
+    - L_Shoulder3_Joint
+    - L_Armlink_Joint
+    - L_Elbow_Joint
+    - L_Forearm_Joint
+    - L_Wrist1_Joint
+    - L_Wrist2_Joint
+    - Neck_Joint
+    - Head_Joint
+    - R_Shoulder1_Joint
+    - R_Shoulder2_Joint
+    - R_Shoulder3_Joint
+    - R_Armlink_Joint
+    - R_Elbow_Joint
+    - R_Forearm_Joint
+    - R_Wrist1_Joint
+    - R_Wrist2_Joint
+  gains:
+    L_HipYaw_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_HipRoll_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_HipPitch_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Knee_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_AnklePitch_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_AnkleRoll_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_HipYaw_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_HipRoll_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_HipPitch_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Knee_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_AnklePitch_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_AnkleRoll_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Waist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Waist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Upperbody_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Neck_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Head_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+left_arm_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - L_Shoulder1_Joint
+    - L_Shoulder2_Joint
+    - L_Shoulder3_Joint
+    - L_Armlink_Joint
+    - L_Elbow_Joint
+    - L_Forearm_Joint
+    - L_Wrist1_Joint
+    - L_Wrist2_Joint
+  gains:
+    L_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+right_arm_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - R_Shoulder1_Joint
+    - R_Shoulder2_Joint
+    - R_Shoulder3_Joint
+    - R_Armlink_Joint
+    - R_Elbow_Joint
+    - R_Forearm_Joint
+    - R_Wrist1_Joint
+    - R_Wrist2_Joint
+  gains:
+    R_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+upper_body_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - Waist1_Joint
+    - Waist2_Joint
+    - Upperbody_Joint
+    - L_Shoulder1_Joint
+    - L_Shoulder2_Joint
+    - L_Shoulder3_Joint
+    - L_Armlink_Joint
+    - L_Elbow_Joint
+    - L_Forearm_Joint
+    - L_Wrist1_Joint
+    - L_Wrist2_Joint
+    - Neck_Joint
+    - Head_Joint
+    - R_Shoulder1_Joint
+    - R_Shoulder2_Joint
+    - R_Shoulder3_Joint
+    - R_Armlink_Joint
+    - R_Elbow_Joint
+    - R_Forearm_Joint
+    - R_Wrist1_Joint
+    - R_Wrist2_Joint
+  gains:
+    Waist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Waist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Upperbody_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Neck_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Head_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Shoulder3_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Armlink_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Elbow_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Forearm_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist1_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_Wrist2_Joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

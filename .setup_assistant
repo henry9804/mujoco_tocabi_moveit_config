@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    relative_path: config/dyros_tocabi_for_moveit.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/dyros_tocabi_description.srdf
+  CONFIG:
+    author_name: yhlee
+    author_email: henry9804@snu.ac.kr
+    generated_timestamp: 1713507791
